@@ -1,6 +1,8 @@
 import { SquashApiError } from '@/lib/squash-api';
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 const SQUASH_BASE_URL = 'https://demo.squashtest.org/squash/api/rest/latest';
 const SQUASH_AUTH_TOKEN = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwidXVpZCI6IjA0Zjc0NTc5LTg0YTAtNDQ0MS04OTNmLTY4NDEzZDI3YmFjMyIsInBlcm1pc3Npb25zIjoiUkVBRF9XUklURSIsImlhdCI6MTc1ODg5NTAwMiwiZXhwIjoxNzkwMjk0NDAwfQ.GM9kkdH9ML7GsAF10KsFzCj8uMewNcV5qVzF-sTFsabssETEd0gS2qjxBhSV13_AO1Umxga0Y8emo5LhJ8oZpA';
 
